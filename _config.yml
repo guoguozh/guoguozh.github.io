@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Yufan Deng"
+title                    : "Guoguo Zhang"
 title_separator          : "-"
-name                     : &name "Yufan Deng"
+name                     : &name "Guoguo Zhang"
 description              : &description "personal description"
 url                      : https://yufandeng.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Yufan Deng"
+  name             : "Guoguo Zhang"
   avatar           : "profile_dyf.jpg"
   bio              : "CS PhD @ Oxford VGG"
   location         : "Oxford, UK"

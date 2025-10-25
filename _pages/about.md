@@ -11,7 +11,7 @@ I am Guoguo Zhang.
 
 <!-- I am looking for 25 Fall PhD position now!  -->
 
-My CV can be found [here](https://yufandeng.com/files/cv_yfdeng.pdf).
+My CV can be found [here](https://zhangguoguo.com/files/CV_Guoguo.pdf).
 <!-- I will obtain BEng in Computer Science in June 2025. -->
 
 ## Publications

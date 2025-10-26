@@ -41,10 +41,15 @@ Computer Music Synthesis and Composition; Advisor: Prof. Roger B. Dannenberg
 **Yanshan University**  
 Qinhuangdao, China  
 *Researcher & PI* (Mar 2025–Sep 2025)  
+
 • AI-based Music Therapy System (clinical deployment at PKU Hospital): built end-to-end EEG/audio pipeline (artifact removal, bandpower features), classifier prototyping, and clinical workflow coordination.  
+
 • Real-Time Digital Human Dialogue System: low-latency streaming stack; WebRTC duplex A/V; modular adapters for avatar rendering; on-prem packaging; demoed at China Post Group; deployed at Heilongjiang Provincial People's Court.  
+
 • Provincial Project (AI Agents for Music Therapy & Mental Health): multimodal emotion recognition (facial micro-expressions, speech prosody, HR proxy); music feature–emotion mapping database.  
+
 • Clinical RCT on 'Jue(角)' Mode Music (ICU Delirium): third author; ICU data collection, anonymization, session logs; supported analysis of efficacy signals.  
+
 • Bio-inspired Piano Hand Exoskeleton: lightweight dual-loop six-bar design; kinematics validation; real-time DTW-based performance scoring; Third Prize, 2025 Hebei Graduate Robotics Innovation Design Competition.
 
 **Shanghai University**  

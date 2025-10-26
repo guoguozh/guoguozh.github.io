@@ -9,5 +9,6 @@ location: "Guangzhou, China"
 ---
 
 Teaching Responsibilities:
+- Choir ensemble training
 - Directed a New Year choir concert for Xinjiang migrant students
 

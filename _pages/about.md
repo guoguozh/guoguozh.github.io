@@ -16,4 +16,5 @@ At the core of my work is a passion for piano performance, where I explore both 
 My interdisciplinary approach combines insights from neuroscience and cognitive science to understand how music affects the human mind and brain. I am particularly interested in how musical interventions can be used in therapeutic contexts, examining the psychophysiological mechanisms that underlie music’s impact on cognition, emotion, and behavior.
 
 Through my work, I aim to contribute to both the advancement of AI technologies for music and the understanding of music’s role in human cognition and well-being. I am passionate about creating interactive systems that enhance human-computer interaction through multimodal interfaces, emotion recognition, and personalized musical experiences.
+
 My CV can be found [here](files/CV_Guoguo.pdf).

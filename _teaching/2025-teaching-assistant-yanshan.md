@@ -6,6 +6,7 @@ permalink: /teaching/2025-teaching-assistant-yanshan
 venue: "Yanshan University"
 date: 2025-03-01
 location: "Qinhuangdao, China"
+period: "Mar 2025 – present"
 ---
 
 Teaching Responsibilities:

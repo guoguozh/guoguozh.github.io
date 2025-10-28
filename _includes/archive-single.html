@@ -39,7 +39,20 @@
     {% endif %}
 
         {% if post.collection == 'teaching' %}
-          <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          <p>{{ post.type }}, <i>{{ post.venue }}</i></p>
+          {% if post.location %} <p style="margin-top: -0.8em;"><strong>Location:</strong> <i>{{ post.location }}</i></p> {% endif %}
+          {% if post.advisor %} <p style="margin-top: -0.8em;"><strong>Advisor:</strong> {{ post.advisor }}</p> {% endif %}
+          {% if post.period %} <p style="margin-top: -0.8em;"><strong>Period:</strong> {{ post.period }}</p> {% endif %}
+        {% elsif post.collection == 'research' %}
+          <p>{{ post.type }}, <i>{{ post.venue }}</i></p>
+          {% if post.location %} <p style="margin-top: -0.8em;"><strong>Location:</strong> <i>{{ post.location }}</i></p> {% endif %}
+          {% if post.advisor %} <p style="margin-top: -0.8em;"><strong>Advisor:</strong> {{ post.advisor }}</p> {% endif %}
+          {% if post.period %} <p style="margin-top: -0.8em;"><strong>Period:</strong> {{ post.period }}</p> {% endif %}
+        {% elsif post.collection == 'clinical' %}
+          <p>{{ post.type }}, <i>{{ post.venue }}</i></p>
+          {% if post.location %} <p style="margin-top: -0.8em;"><strong>Location:</strong> <i>{{ post.location }}</i></p> {% endif %}
+          {% if post.advisor %} <p style="margin-top: -0.8em;"><strong>Advisor:</strong> {{ post.advisor }}</p> {% endif %}
+          {% if post.period %} <p style="margin-top: -0.8em;"><strong>Period:</strong> {{ post.period }}</p> {% endif %}
         {% elsif post.collection == 'publications' %}
           {% if post.venue and post.venue != '' %}
             <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
@@ -51,9 +64,9 @@
         {% endif %}
 
     {% if post.excerpt and site.read_more != 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+    <p class="archive__item-excerpt" itemprop="description" style="margin-top: -0.8em;">{{ post.excerpt | markdownify }}</p>
     {% elsif post.excerpt and site.read_more == 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
+    <p class="archive__item-excerpt" itemprop="description" style="margin-top: -0.8em;"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
     
     {% if post.citation and post.paperurl %}

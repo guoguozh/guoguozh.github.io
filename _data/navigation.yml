@@ -3,6 +3,10 @@ main:
   - title: "Publications"
     url: /publications/
 
+  - title: "Research"
+    url: /research/
+
+
   - title: "Intern"
     url: /work/    
     
@@ -14,6 +18,9 @@ main:
         
   - title: "Performance"
     url: /year-archive/
+    
+  - title: "Clinical"
+    url: /clinical/
     
   - title: "CV"
     url: /cv/

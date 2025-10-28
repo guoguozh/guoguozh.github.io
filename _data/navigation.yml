@@ -22,5 +22,8 @@ main:
   - title: "Clinical"
     url: /clinical/
     
+  - title: "Horizontal Project"
+    url: /projects/
+    
   - title: "CV"
     url: /cv/

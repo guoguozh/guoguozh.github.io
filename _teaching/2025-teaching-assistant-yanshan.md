@@ -1,7 +1,7 @@
 ---
-title: "Teaching Assistant (Music Technology & Pedagogy)"
+title: "Teaching Assistant"
 collection: teaching
-type: "Undergraduate course"
+type: "Music Technology & Pedagogy"
 permalink: /teaching/2025-teaching-assistant-yanshan
 venue: "Yanshan University"
 date: 2025-03-01

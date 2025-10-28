@@ -193,6 +193,9 @@ collections:
   clinical:
     output: true
     permalink: /:collection/:path/
+  projects:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -262,6 +265,14 @@ defaults:
   - scope:
       path: ""
       type: clinical
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  # _projects
+  - scope:
+      path: ""
+      type: projects
     values:
       layout: single
       author_profile: true

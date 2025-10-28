@@ -1,5 +1,5 @@
 ---
-title: "Music Teacher - Private Instruction"
+title: "Music Teacher"
 collection: teaching
 type: "Private Instruction"
 permalink: /teaching/2024-spring-nova-international

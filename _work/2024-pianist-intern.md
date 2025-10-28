@@ -9,7 +9,7 @@ period: "Dec 2024 – Jan 2025"
 order: 1
 ---
 
-**Position**: Pianist & Music Director Intern  
+**Position**: Pianist & Music Director 
 **Period**: Dec 2024 – Jan 2025  
 **Location**: Glasgow, UK
 

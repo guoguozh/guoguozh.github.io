@@ -59,7 +59,13 @@ Shanghai, China
 
 **Beijing Normal University**  
 Beijing, China  
-*Research Assistant* (May 2025–Present)  
+*Research Assistant* (May 2025–Oct 2025)  
+• Designed a real-time audio DSP pipeline for instant vocal assessment, including F0, formant resonances, vibrato, and dynamics.  
+• Built an LLM feedback engine that converts metrics into rubric-based comments and targeted exercises.
+
+**Beijing University of Science and Technology**  
+Beijing, China  
+*Research Assistant*  (March 2025–present)
 • ML-based instrument timbre transfer and source separation (ongoing).
 
 ## Work Experience

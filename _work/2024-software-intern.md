@@ -9,7 +9,7 @@ period: "Jun 2024 – Sep 2024"
 order: 2
 ---
 
-**Position**: Software Engineer Intern  
+**Position**: Software Engineer 
 **Period**: Jun 2024 – Sep 2024  
 **Location**: Shenzhen, China
 

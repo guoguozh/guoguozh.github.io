@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Guoguo Zhang"
 title_separator          : "-"
 name                     : &name "Guoguo Zhang"
-description              : &description "Master of Music at Royal Conservatoire of Scotland | AI for Music & HCI Researcher | Piano Performance"
+description              : &description "Master of Music at Royal Conservatoire of Scotland | AI for Music & HCI | Piano Performance"
 url                      : https://zhangguoguo.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Guoguo Zhang"
   avatar           : "profile_guoguo.jpg"
-  bio              : "Master of Music <br> Royal Conservatoire of Scotland <br> AI for Music & HCI Research"
+  bio              : "Master of Music <br> Royal Conservatoire of Scotland <br> AI for Music & HCI"
   location         : "Glasgow, United Kingdom"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"

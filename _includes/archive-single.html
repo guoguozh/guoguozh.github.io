@@ -49,7 +49,7 @@
           {% if post.advisor %} <p style="margin-top: -0.8em;"><strong>Advisor:</strong> {{ post.advisor }}</p> {% endif %}
           {% if post.period %} <p style="margin-top: -0.8em;"><strong>Period:</strong> {{ post.period }}</p> {% endif %}
         {% elsif post.collection == 'clinical' %}
-          <p>{{ post.type }}, <i>{{ post.venue }}</i></p>
+          <p><i>{{ post.venue }}</i>, {{ post.type }}</p>
           {% if post.location %} <p style="margin-top: -0.8em;"><strong>Location:</strong> <i>{{ post.location }}</i></p> {% endif %}
           {% if post.advisor %} <p style="margin-top: -0.8em;"><strong>Advisor:</strong> {{ post.advisor }}</p> {% endif %}
           {% if post.period %} <p style="margin-top: -0.8em;"><strong>Period:</strong> {{ post.period }}</p> {% endif %}

@@ -3,14 +3,14 @@ title: "Researcher"
 collection: work
 company: "Yanshan University"
 venue: "Yanshan University"
-date: 2025-03-01
+date: 2024-03-01
 location: "Qinhuangdao, China"
-period: "Mar 2025 – present"
+period: "Mar 2024 – present"
 order: 4
 ---
 
 **Position**: Researcher & PI  
-**Period**: Mar 2025 – present  
+**Period**: Mar 2024 – present  
 **Location**: Qinhuangdao, China
 
 ## AI-based Music Therapy System (Clinical Deployment at PKU Hospital)

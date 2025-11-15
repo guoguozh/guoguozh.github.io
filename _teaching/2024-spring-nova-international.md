@@ -6,7 +6,7 @@ permalink: /teaching/2024-spring-nova-international
 venue: "Nova International Education LLC"
 date: 2024-03-01
 location: "San Leandro, USA"
-period: "Mar 2024 – Jun 2025"
+period: "Mar 2024 – Present"
 ---
 
 Teaching Responsibilities:

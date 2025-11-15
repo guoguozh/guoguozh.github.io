@@ -196,9 +196,6 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
-  education:
-    output: true
-    permalink: /:collection/:path/
 
 
 # Defaults
@@ -276,14 +273,6 @@ defaults:
   - scope:
       path: ""
       type: projects
-    values:
-      layout: single
-      author_profile: true
-      share: true
-  # _education
-  - scope:
-      path: ""
-      type: education
     values:
       layout: single
       author_profile: true

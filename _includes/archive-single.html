@@ -57,8 +57,6 @@
           <p><strong>{{ post.client }}</strong></p>
           {% if post.location %} <p style="margin-top: -0.8em;"><strong>Location:</strong> <i>{{ post.location }}</i></p> {% endif %}
           {% if post.period %} <p style="margin-top: -0.8em;"><strong>Period:</strong> {{ post.period }}</p> {% endif %}
-        {% elsif post.collection == 'education' %}
-          <p>{% if post.type and post.type != '' %}{{ post.title }} {{ post.type }}{% else %}{{ post.title }}{% endif %}</p>
         {% elsif post.collection == 'publications' %}
           {% if post.venue and post.venue != '' %}
             <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>

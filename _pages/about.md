@@ -17,4 +17,4 @@ My interdisciplinary approach combines insights from neuroscience and cognitive 
 
 Through my work, I aim to contribute to both the advancement of AI technologies for music and the understanding of music’s role in human cognition and well-being. I am passionate about creating interactive systems that enhance human-computer interaction through multimodal interfaces, emotion recognition, and personalized musical experiences.
 
-My CV can be found [here](files/CV_Guoguo.pdf).
+My CV can be found [here](files/CV_Guoguo (1).pdf).

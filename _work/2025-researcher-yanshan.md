@@ -33,8 +33,3 @@ order: 4
 - Managed anonymization and session logs
 - Supported analysis to verify the efficacy signals of 'Jue' mode intervention
 
-## Bio-inspired Piano Hand Exoskeleton
-- Designed lightweight dual-loop six-bar mechanism
-- Performed kinematics validation and real-time DTW-based performance scoring
-- Award: Third Prize, 2025 Hebei Graduate Robotics Innovation Design Competition
-

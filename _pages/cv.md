@@ -50,8 +50,6 @@ Qinhuangdao, China
 
 • Clinical RCT on 'Jue(角)' Mode Music (ICU Delirium): third author; ICU data collection, anonymization, session logs; supported analysis of efficacy signals.  
 
-• Bio-inspired Piano Hand Exoskeleton: lightweight dual-loop six-bar design; kinematics validation; real-time DTW-based performance scoring; Third Prize, 2025 Hebei Graduate Robotics Innovation Design Competition.
-
 **Shanghai University**  
 Shanghai, China  
 *Research Assistant* (Dec 2024–Feb 2025)  

@@ -15,12 +15,9 @@ main:
     
   - title: "Portfolio"
     url: /portfolio/
-        
-  - title: "Performance"
-    url: /year-archive/
     
   - title: "Clinical"
     url: /clinical/
     
-  - title: "Horizontal Project"
+  - title: "Horizontal"
     url: /projects/

@@ -68,9 +68,17 @@
         {% endif %}
 
     {% if post.excerpt and site.read_more != 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description" style="margin-top: -0.8em;">{{ post.excerpt | markdownify }}</p>
+      {% if post.collection == 'portfolio' %}
+        <div class="archive__item-excerpt" itemprop="description" style="margin-top: -0.8em;">{{ post.excerpt }}</div>
+      {% else %}
+        <p class="archive__item-excerpt" itemprop="description" style="margin-top: -0.8em;">{{ post.excerpt | markdownify }}</p>
+      {% endif %}
     {% elsif post.excerpt and site.read_more == 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description" style="margin-top: -0.8em;"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
+      {% if post.collection == 'portfolio' %}
+        <div class="archive__item-excerpt" itemprop="description" style="margin-top: -0.8em;">{{ post.excerpt }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></div>
+      {% else %}
+        <p class="archive__item-excerpt" itemprop="description" style="margin-top: -0.8em;"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
+      {% endif %}
     {% endif %}
     
     {% if post.citation and post.paperurl %}

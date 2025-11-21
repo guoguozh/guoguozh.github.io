@@ -6,5 +6,3 @@ link: "http://db.ahcs.art"
 order: 3
 ---
 
-A comprehensive music database system with emotion tracking and intelligent music selection capabilities. The system provides music therapy applications with data-driven insights for personalized music recommendations.
-

@@ -10,7 +10,7 @@ order: 3
 ---
 
 **Position**: Software Engineer  
-**Period**: 03/2024 -- Present  
+**Period**: March 2024 -- Present  
 **Location**: San Leandro, USA
 
 Contributed to development of Simploy AI (Johns Hopkins University community), implementing multimodal affect and attention-detection systems.

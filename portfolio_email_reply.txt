@@ -1,0 +1,35 @@
+That will DEFINITELY work.  In the meantime: Would you be able to send me a link to a portfolio of some kind? 
+
+Monday 24.11 9:00AM
+
+---
+
+Dear [Name],
+
+Thank you for your message. I'd be happy to share my portfolio with you. You can view my complete portfolio at:
+
+**Portfolio Page:** https://zhangguoguo.com/portfolio/
+
+Here are my key projects with direct links:
+
+1. **Real-Time Audio Visualization**
+   A real-time audio visualization project featuring a full GUI control panel and a preset system, with support for local audio uploads and system audio input.
+   **Live Demo:** http://ai.ahcs.art:3000/
+
+2. **Real-Time Multimodal Digital Human**
+   A real-time multimodal digital human for dialogue and music using full-stack development. The system ingests text, audio and video in real time, uses face recognition to personalize responses, and matches lip and facial movements to generated speech. The system is currently in production at a provincial court.
+   **Live Demo:** https://ai.ahcs.art:8283
+
+3. **Scene Art Interactive Web**
+   An interactive web art project that creates immersive digital experiences, combining artistic expression with cutting-edge web technologies.
+   **Live Demo:** https://scene.ahcs.art
+
+4. **Music Database System**
+   A comprehensive music database with emotion-tracking and intelligent music selection capabilities, providing data-driven insights for personalized music recommendations.
+   **Live Demo:** http://db.ahcs.art
+
+Please feel free to explore these projects, and let me know if you have any questions or would like more details about any specific project.
+
+Best regards,
+Guoguo Zhang
+

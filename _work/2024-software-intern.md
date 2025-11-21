@@ -18,13 +18,3 @@ order: 2
 - Implemented RESTful APIs and database schema design, improving system efficiency by 40%
 - Collaborated with cross-functional teams in agile development cycles, delivering 3 major features ahead of schedule
 
-## Machine Learning & Data Processing
-- Built ML pipelines for real-time data analysis using Python, scikit-learn, and TensorFlow
-- Designed and implemented recommendation algorithms, increasing user engagement metrics by 25%
-- Optimized data processing workflows, reducing processing time by 60% through parallel computation
-
-## DevOps & Infrastructure
-- Containerized microservices using Docker and Kubernetes for improved deployment efficiency
-- Set up CI/CD pipelines with GitHub Actions, automating testing and deployment processes
-- Contributed to system architecture decisions and code reviews, maintaining 95% test coverage
-

@@ -64,6 +64,34 @@
   & + p {
     text-indent: 0;
   }
+
+  // Portfolio specific spacing - increase spacing for video containers and images
+  .video-container {
+    margin-top: 1.2em !important;
+    margin-bottom: 1.2em !important;
+  }
+
+  // Ensure images have the same spacing as video containers (1.2em top and bottom)
+  img {
+    margin-top: 1.2em !important;
+    margin-bottom: 1.2em !important;
+  }
+}
+
+// Portfolio specific spacing adjustments
+// Target items that contain video containers (typically portfolio items)
+.archive__item {
+  .archive__item-excerpt {
+    // Override inline style margin-top: -0.8em for portfolio items
+    &[style*="margin-top: -0.8em"] {
+      margin-top: 0.6em !important;
+    }
+
+    // Additional spacing before video
+    .video-container {
+      margin-top: 1.2em !important;
+    }
+  }
 }
 
 .archive__item-teaser {
@@ -104,6 +132,11 @@
 
   .page__meta {
     margin: 0 0 4px;
+  }
+
+  // Increase spacing between title and excerpt (portfolio page uses list view)
+  .archive__item-title {
+    margin-bottom: 0.75em;
   }
 }
 

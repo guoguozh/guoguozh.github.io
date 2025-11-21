@@ -5,6 +5,7 @@ company: "Nova International Education LLC"
 venue: "Nova International Education LLC"
 date: 2024-03-01
 location: "San Leandro, USA"
+position: "Software Engineer"
 period: "March 2024 -- Present"
 order: 3
 ---

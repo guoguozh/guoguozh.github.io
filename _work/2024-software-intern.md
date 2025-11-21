@@ -5,6 +5,7 @@ company: "Shenzhen Guangzongheng Software Co., Ltd"
 venue: "Shenzhen Guangzongheng Software Co., Ltd"
 date: 2024-06-01
 location: "Shenzhen, China"
+position: "Software Engineer"
 period: "Jun 2023 – Sep 2024"
 order: 2
 ---

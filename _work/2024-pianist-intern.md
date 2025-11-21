@@ -5,6 +5,7 @@ company: "Hillington Park Church of Scotland"
 venue: "Hillington Park Church of Scotland"
 date: 2024-12-01
 location: "Glasgow, UK"
+position: "Pianist & Music Director"
 period: "Dec 2024 – Jan 2025"
 order: 1
 ---

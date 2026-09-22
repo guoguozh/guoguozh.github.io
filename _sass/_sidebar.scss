@@ -265,7 +265,7 @@
   div.author__avatar {
     display: block;
     float: left;
-    width: 130px;
+    width: 150px;
     margin: 0 1em 0.5em 0;
   }
 
@@ -277,8 +277,15 @@
     line-height: 1.4;
   }
 
-  .author__name {
+  // the theme sets these to 16px / 12px, which reads as small next to the
+  // photo on a phone
+  .sidebar .author__name {
+    font-size: 1.125em;
     margin-bottom: 0.3em;
+  }
+
+  .sidebar .author__bio {
+    font-size: 0.875em;
   }
 
   .author__urls-wrapper {

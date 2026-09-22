@@ -1,7 +1,7 @@
 ---
 title: "Harnessing auditory laughter to enhance pain tolerance: insights into its psychophysiological mechanisms"
 collection: publications
-permalink: /publication/2015-10-01-paper-title-number-3
+permalink: /publication/2025-auditory-laughter-pain-tolerance
 excerpt: 'Harnessing auditory laughter to enhance pain tolerance: insights into its psychophysiological mechanisms'
 date: 2025-03-01
 venue: ''

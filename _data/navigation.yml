@@ -13,9 +13,13 @@ main:
   - title: "Teaching"
     url: /teaching/    
     
-  - title: "Portfolio"
-    url: /portfolio/
-    
+  # Portfolio is disabled for now (content kept in _portfolio/).
+  # To re-enable: uncomment the two lines below, set `published: true` in
+  # _pages/portfolio.html, and set the portfolio collection back to
+  # `output: true` in _config.yml.
+  # - title: "Portfolio"
+  #   url: /portfolio/
+
   - title: "Clinical"
     url: /clinical/
     

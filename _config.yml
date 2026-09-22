@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Guoguo Zhang"
 title_separator          : "-"
 name                     : &name "Guoguo Zhang"
-description              : &description "Master of Music at Royal Conservatoire of Scotland | AI for Music & HCI | Piano Performance"
+description              : &description "PhD in Computer Science at Durham University | AI for Audio & Music | Multimodal Affective Computing"
 url                      : https://zhangguoguo.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Guoguo Zhang"
   avatar           : "profile_guoguo.jpg"
-  bio              : "Master of Music <br> Royal Conservatoire of Scotland <br> AI for Music & HCI"
-  location         : "Glasgow, United Kingdom"
+  bio              : "PhD in Computer Science <br> Durham University <br> AI for Audio & Music"
+  location         : "Durham, United Kingdom"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=UXVk9hIAAAAJ"
@@ -96,13 +96,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "guoguozh"
+  # github           : "guoguozh"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  # linkedin         : "guoguozhang"
+  linkedin         : "guoguozhang"
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
@@ -182,7 +182,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false # disabled for now; set back to true to re-enable the Portfolio section
     permalink: /:collection/:path/
   work:
     output: true

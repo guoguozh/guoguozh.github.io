@@ -33,8 +33,9 @@ My CV can be found [here](/files/CV_Guoguo.pdf).
   border-radius: 4px;
 }
 .pub-info {
-  flex: 1 1 320px;
+  flex: 1 1 280px;
   min-width: 0;
+  overflow-wrap: break-word;
 }
 .pub-info .pub-title {
   margin: 0 0 0.3em 0;
@@ -58,7 +59,24 @@ My CV can be found [here](/files/CV_Guoguo.pdf).
   white-space: nowrap;
 }
 @media (max-width: 600px) {
-  .pub-thumb { flex-basis: 100%; max-width: 100%; }
+  .pub {
+    gap: 0.75em;
+    margin-bottom: 1.5em;
+  }
+  .pub-thumb {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  .pub-info .pub-title {
+    font-size: 1em;
+  }
+  .pub-info p {
+    font-size: 0.85em;
+  }
+  .pub-links a {
+    display: inline-block;
+    margin-top: 0.15em;
+  }
 }
 </style>
 

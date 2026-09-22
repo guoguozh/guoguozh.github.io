@@ -179,7 +179,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   publications:
-    output: true
+    output: false # no per-paper detail pages; the list on the homepage is the only view
     permalink: /:collection/:path/
   portfolio:
     output: false # disabled for now; set back to true to re-enable the Portfolio section

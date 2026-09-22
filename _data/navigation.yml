@@ -1,7 +1,10 @@
 # main links links
 main:
-  - title: "Publications"
-    url: /publications/
+  # Publications is disabled for now — the list lives on the homepage instead.
+  # To re-enable: uncomment the two lines below and set `published: true` in
+  # _pages/publications.md.
+  # - title: "Publications"
+  #   url: /publications/
 
   - title: "Research"
     url: /research/

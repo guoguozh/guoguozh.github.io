@@ -3,6 +3,7 @@ layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
+published: false # disabled for now; the publication list lives on the homepage
 ---
 
 {% if author.googlescholar %}

@@ -42,9 +42,6 @@ My CV can be found [here](/files/CV_Guoguo.pdf).
   line-height: 1.35;
   font-weight: bold;
 }
-.pub-info .pub-title a {
-  color: inherit;
-}
 .pub-info p {
   margin: 0 0 0.25em 0;
   font-size: 0.9em;
@@ -69,10 +66,10 @@ My CV can be found [here](/files/CV_Guoguo.pdf).
 {% for post in site.publications reversed %}<div class="pub">
 {% if post.thumbnail %}<div class="pub-thumb"><img src="{{ post.thumbnail | prepend: '/images/' }}" alt="{{ post.title }}" /></div>
 {% endif %}<div class="pub-info">
-<div class="pub-title"><a href="{{ post.url }}">{{ post.title }}</a></div>
+<div class="pub-title">{{ post.title }}</div>
 <p class="pub-authors">{{ post.authors | markdownify | remove: '<p>' | remove: '</p>' }}</p>
 <p class="pub-venue">{{ post.venue }}, {{ post.date | date: "%Y" }}</p>
-<p class="pub-links">{% if post.paperurl %}<a href="{{ post.paperurl }}">[Paper]</a>{% endif %}{% if post.code %}<a href="{{ post.code }}">[Code]</a>{% endif %}<a href="{{ post.url }}">[Abstract]</a></p>
+<p class="pub-links">{% if post.paperurl %}<a href="{{ post.paperurl }}">[Paper]</a>{% endif %}{% if post.code %}<a href="{{ post.code }}">[Code]</a>{% endif %}</p>
 </div>
 </div>
 {% endfor %}</div>

@@ -5,6 +5,7 @@ permalink: /publication/2026-prosocial-lyrics-donation
 excerpt: 'Combines psychophysiological indices (HRV) with self-report measures to test whether music with prosocial lyrics elicits empathy and increases charitable donation behavior.'
 date: 2026-04-23
 venue: 'Acta Psychologica'
+authors: 'Qiujian Xu, Miaomiao Yang, Siqi Liu, Meihui Li, Xiubo Ren, Xiaoyu Wang, Xinran Yuan, Junrui Li, Jingjing Jiang, Shanshan Zhao, **Guoguo Zhang**, Bo Wang, Yutong Liu, Xiru Huang, Dan Yang'
 paperurl: 'https://doi.org/10.1016/j.actpsy.2026.106893'
 citation: 'Qiujian Xu, Miaomiao Yang, Siqi Liu, Meihui Li, Xiubo Ren, Xiaoyu Wang, Xinran Yuan, Junrui Li, Jingjing Jiang, Shanshan Zhao, <b>Guoguo Zhang</b>, Bo Wang, Yutong Liu, Xiru Huang, Dan Yang. "Predicting donation behavior from psychophysiological responses to music with prosocial lyrics." <i>Acta Psychologica</i>, vol. 266, Art. 106893, 2026. DOI: 10.1016/j.actpsy.2026.106893.'
 ---

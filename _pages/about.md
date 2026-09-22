@@ -7,8 +7,20 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am Guoguo Zhang, currently pursuing a PhD in Computer Science at Durham University, working on AI for audio and music. My research sits at the intersection of machine learning, audio signal processing, and human–computer interaction, with a focus on multimodal affective computing and generative music — including real-time interactive systems, digital humans, and clinical music therapy.
 
-Before Durham, I completed a Master of Music in Piano Performance at the Royal Conservatoire of Scotland. That performance background continues to shape how I think about expressivity, interaction, and evaluation in computational music systems. Grounded in cognitive science and neuroscience, my work aims to build interactive, emotion-aware musical systems that support both therapeutic and artistic creation.
+{% include base_path %}
+
+I am Guoguo Zhang, currently pursuing a PhD in Computer Science at Durham University, working on AI for audio and music, advised by Dr Brian Bemman. I received my Bachelor's degree in Music Performance from Sun Yat-sen University in 2024, and a Master of Music from the Royal Conservatoire of Scotland. I am broadly interested in AI, audio, music and therapy.
 
 My CV can be found [here](/files/CV_Guoguo.pdf).
+
+Publications
+======
+
+{% for post in site.publications reversed %}
+**[{{ post.title }}]({{ base_path }}{{ post.url }})**  
+{{ post.authors }}  
+*{{ post.venue }}*, {{ post.date | date: "%Y" }}  
+[\[Paper\]]({{ post.paperurl }}){% if post.code %} [\[Code\]]({{ post.code }}){% endif %}
+
+{% endfor %}

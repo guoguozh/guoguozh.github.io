@@ -5,6 +5,7 @@ permalink: /publication/2026-piano-information-entropy
 excerpt: 'Introduces information entropy into piano pedagogy to quantify task complexity and ability-task matching, showing how deliberate practice mediates intrinsic motivation and performance state.'
 date: 2026-03-01
 venue: 'Acta Psychologica'
+authors: 'Yaohong Jiang, Qiujian Xu, **Guoguo Zhang**, Dan Yang, Xiubo Ren, Bo Wang, Junrui Li, Xinran Yuan, Xiaoyu Wang, Miaomiao Yang, Siqi Liu, Minghe Song, Meihui Li'
 paperurl: 'https://doi.org/10.1016/j.actpsy.2026.106262'
 citation: 'Yaohong Jiang, Qiujian Xu, <b>Guoguo Zhang</b>, Dan Yang, Xiubo Ren, Bo Wang, Junrui Li, Xinran Yuan, Xiaoyu Wang, Miaomiao Yang, Siqi Liu, Minghe Song, Meihui Li. "A study on the mechanism of intrinsic motivation and performance state in deliberate practice of piano based on information entropy." <i>Acta Psychologica</i>, vol. 263, Art. 106262, 2026. DOI: 10.1016/j.actpsy.2026.106262.'
 ---

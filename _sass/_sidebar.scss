@@ -72,7 +72,7 @@
 .author__avatar {
   display: table-cell;
   vertical-align: top;
-  width: 64px;
+  width: 90px;
   // set width only, for non-square avatars
   // height: 36px;
 
@@ -243,5 +243,35 @@
     &:hover {
       text-decoration: underline;
     }
+  }
+}
+
+/*
+   Author profile on phones
+   --------------------------------------------------------------------------
+   Below $large the theme squeezes the avatar, the name/bio and the "Follow"
+   button into a single table row, which leaves almost no width for the photo.
+   On phones, stack them instead so the avatar can actually be seen.
+   ========================================================================== */
+
+@media screen and (max-width: 600px) {
+  // the include puts .author__avatar on both the wrapper and the <img>,
+  // so target the wrapper explicitly here
+  div.author__avatar {
+    display: block;
+    width: 50%;
+    max-width: 240px;
+    margin: 0 0 0.75em;
+  }
+
+  .author__content {
+    display: block;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .author__urls-wrapper {
+    display: inline-block;
   }
 }

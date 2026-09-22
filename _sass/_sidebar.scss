@@ -87,11 +87,12 @@
     // is only there to widen the avatar in the desktop sidebar
     max-width: 100%;
     width: 100%;
+    // no forced aspect-ratio and no object-fit: cover, so the photo always
+    // keeps its own proportions and nothing is cropped, whichever file is
+    // set as `avatar` in _config.yml
+    height: auto;
     margin-left: 0;
     border-radius: 0;
-    object-fit: cover;
-    // exactly matches profile_guoguo3.jpg (700 x 1080), so nothing is cropped
-    aspect-ratio: 700 / 1080;
 
     @include breakpoint($large) {
       max-width: 120%;

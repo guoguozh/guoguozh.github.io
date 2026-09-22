@@ -1,4 +1,40 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
 
+<script>
+/* Close the "Follow" drop-down when tapping outside it or pressing Escape.
+   The theme's own handler (assets/js/_main.js) only toggles on the button,
+   so on phones the menu stays open until you hit the button again. This lives
+   here rather than in _main.js because assets/js/main.min.js is a generated
+   bundle and rebuilding it needs Node. */
+(function ($) {
+  if (!$) { return; }
+
+  function menuIsCollapsible() {
+    // the button only exists/shows below the $large breakpoint; above it the
+    // links are always visible in the sidebar and must not be hidden
+    return $(".author__urls-wrapper button").is(":visible");
+  }
+
+  function closeFollowMenu() {
+    if (!menuIsCollapsible()) { return; }
+    var $menu = $(".author__urls");
+    if (!$menu.is(":visible")) { return; }
+    $menu.fadeOut("fast");
+    $(".author__urls-wrapper button").removeClass("open");
+  }
+
+  $(document).on("click", function (event) {
+    var $wrapper = $(".author__urls-wrapper");
+    if (!$wrapper.length) { return; }
+    if ($wrapper.is(event.target) || $wrapper.has(event.target).length) { return; }
+    closeFollowMenu();
+  });
+
+  $(document).on("keyup", function (event) {
+    if (event.key === "Escape" || event.keyCode === 27) { closeFollowMenu(); }
+  });
+})(window.jQuery);
+</script>
+
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}

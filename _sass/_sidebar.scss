@@ -255,23 +255,35 @@
    ========================================================================== */
 
 @media screen and (max-width: 600px) {
+  .author__profile {
+    @include clearfix();
+    margin-bottom: 1.5em;
+  }
+
   // the include puts .author__avatar on both the wrapper and the <img>,
   // so target the wrapper explicitly here
   div.author__avatar {
     display: block;
-    width: 50%;
-    max-width: 240px;
-    margin: 0 0 0.75em;
+    float: left;
+    width: 130px;
+    margin: 0 1em 0.5em 0;
   }
 
   .author__content {
     display: block;
-    width: 100%;
+    width: auto;
     padding-left: 0;
     padding-right: 0;
+    line-height: 1.4;
+  }
+
+  .author__name {
+    margin-bottom: 0.3em;
   }
 
   .author__urls-wrapper {
     display: inline-block;
+    vertical-align: top;
+    margin-top: 0.6em;
   }
 }
